@@ -1,0 +1,6 @@
+{
+  "name": "Vantagem Legal",
+  "description": "Website profissional e totalmente funcional para a consultoria jurídica Vantagem Legal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

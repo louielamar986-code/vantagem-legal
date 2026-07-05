@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Baskerville", Georgia, serif;
+  --font-sans: "Source Sans 3", system-ui, -apple-system, sans-serif;
+
+  --color-navy-main: #0B2545;
+  --color-navy-hover: #1C4E80;
+  --color-text-main: #1A1A1A;
+  --color-text-sub: #5C5C5C;
+  --color-bg-alt: #F5F6F8;
+
+  --radius-custom: 8px;
+}
+
+/* Base resets & styling matching identity requirements */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-main);
+  background-color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Focus styles for keyboard accessibility */
+*:focus-visible {
+  outline: 2px solid #1C4E80;
+  outline-offset: 4px;
+}
+
+/* Utilities */
+.font-serif-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+
+.font-sans-body {
+  font-family: var(--font-sans);
+}
